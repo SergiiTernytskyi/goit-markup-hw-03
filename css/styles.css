@@ -438,7 +438,7 @@ body {
 .examples-item {
   width: calc((100% - 90px) / 3);
 
-  border: 1px solid var(--cards-border-color);
+  border-bottom: 1px solid var(--cards-border-color);
 }
 
 .examples-item {
