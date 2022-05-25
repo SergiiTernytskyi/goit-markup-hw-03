@@ -107,6 +107,11 @@ body {
   padding-right: 15px;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* ---------------------Header----------------------- */
 .site-header {
   border-bottom: 1px solid var(--header-border-color);
@@ -228,10 +233,6 @@ body {
 }
 
 /* -----Advantages----- */
-.advantages {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 .advantages-title {
   margin-bottom: 10px;
@@ -289,9 +290,6 @@ body {
 
 /* -----Team----- */
 .team {
-  padding-top: 94px;
-  padding-bottom: 94px;
-
   background-color: var(--third-bg-color);
   text-align: center;
 }
