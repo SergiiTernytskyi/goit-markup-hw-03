@@ -248,9 +248,12 @@ body {
   display: flex;
 }
 
+.advantages-items {
+  max-width: 270px;
+}
+
 .advantages-items:not(:last-child) {
   margin-right: 30px;
-  min-width: 75px;
 }
 
 .advantages-text {
@@ -270,7 +273,14 @@ body {
 
 .about-list {
   display: flex;
-  justify-content: space-between;
+}
+
+.about-item {
+  width: calc((100% - 2 * 30px) / 3);
+}
+
+.about-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .about-item img {
@@ -292,10 +302,11 @@ body {
 
 .team-list {
   display: flex;
-  justify-content: space-between;
 }
 
 .team-item {
+  width: calc((100% - 3 * 30px) / 4);
+
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -304,6 +315,10 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+
+.team-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .team-item-title {
@@ -425,6 +440,7 @@ body {
 .examples-list {
   display: flex;
   flex-wrap: wrap;
+  margin: -15px;
 }
 
 .examples-item-wrapper {
@@ -432,17 +448,13 @@ body {
 }
 
 .examples-item {
-  width: calc((100% - 2 * 30px) / 3);
+  width: calc((100% - 90px) / 3);
 
   border: 1px solid var(--cards-border-color);
 }
 
-.examples-item:not(:nth-child(3n)) {
-  margin-right: 30px;
-}
-
-.examples-item:not(:nth-last-child(-n + 3)) {
-  margin-bottom: 30px;
+.examples-item {
+  margin: 15px;
 }
 
 .examples-item img {
