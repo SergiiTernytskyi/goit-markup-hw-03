@@ -371,13 +371,14 @@ body {
 
 /* ---------------------Main part of portfolio page----------------------- */
 /* -----Buttons line----- */
-.work-list-wrap {
+/* .work-list-wrap {
   margin-bottom: 34px;
-}
+} */
 
 .works-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 56px;
 }
 
 .works-item:not(:last-child) {
