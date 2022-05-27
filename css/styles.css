@@ -323,6 +323,7 @@ body {
 .team-item-title {
   margin-bottom: 10px;
 
+  font-size: 16px;
   font-weight: 500;
   color: var(--second-title-color);
 }
@@ -441,6 +442,8 @@ body {
 .examples-item-wrapper {
   padding: 20px 24px 20px 24px;
   border-bottom: 1px solid var(--cards-border-color);
+  border-left: 1px solid var(--cards-border-color);
+  border-right: 1px solid var(--cards-border-color);
 }
 
 .examples-item {
